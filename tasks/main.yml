@@ -1,7 +1,7 @@
 ---
     - name: Install Apache (httpd)
       dnf:
-        name: httpd
+        name: httpdd
         state: present
 
     - name: Enable and start Apache
